@@ -6,26 +6,26 @@
 Voor beveiligde berichtuitwisselingen in de onderwijsketens worden nu vaak
 berichtuitwisselingen gebaseerd op de Edukoppeling standaard gebruikt.
 Edukoppeling formuleert een aantal maatregelen voor veilige berichtuitwisseling:
-  # Berichten worden verzonden over http, beveiligd met TLS 1.0 of latere versie
-  # Berichten zijn SOAP 1.1 berichten, met als conventies
-      # De beoogd afzender en ontvanger worden als parameter opgenomen in
-        respectievelijk de WSA:From-header en WSA:To- header (tenzij de afzender
-        anonymous is)
-      # Berichten bevatten een timestamp van het moment van verzending
-      # Berichten kunnen optioneel worden ondertekend of geencrypt en
-        ondertekend.
-      # PKIo certificaten worden gebruikt voor ondertekening en encryptie van de
-        berichten.
+  1. Berichten worden verzonden over http, beveiligd met TLS 1.0 of latere versie
+  2. Berichten zijn SOAP 1.1 berichten, met als conventies
+        1. De beoogd afzender en ontvanger worden als parameter opgenomen in
+          respectievelijk de WSA:From-header en WSA:To- header (tenzij de afzender
+          anonymous is)
+        2. Berichten bevatten een timestamp van het moment van verzending
+        3. Berichten kunnen optioneel worden ondertekend of geencrypt en
+          ondertekend.
+        4. PKIo certificaten worden gebruikt voor ondertekening en encryptie van de
+          berichten.
 
 Met deze maatregelen levert berichtverkeer over Edukoppeling een paar zekerheden
 voor zender en ontvanger:
-  # Berichten die tussen verzender en ontvanger worden onderschept, kunnen niet
+  1. Berichten die tussen verzender en ontvanger worden onderschept, kunnen niet
     worden gelezen
-  # Als de berichten ondertekend zijn: als de ondertekening intact is, is het
+  2. Als de berichten ondertekend zijn: als de ondertekening intact is, is het
   bericht ongewijzigd en is het ook op deze manier door de afzender verzonden
-  # Als de berichten geencrypt zijn, kunnen ze alleen door de ontvanger worden
+  3. Als de berichten geencrypt zijn, kunnen ze alleen door de ontvanger worden
   gedecrypt
-  # De identiteit van de afzender in het certificaat is op een betrouwbare
+  3. De identiteit van de afzender in het certificaat is op een betrouwbare
   manier vastgesteld, en is volgens de conventies in het onderwijs ofwel een
   onderwijsinstelling, ofwel een SaaS leverancier die diensten levert namens een
   onderwijsinstelling.
