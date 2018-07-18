@@ -61,11 +61,11 @@ startpunt.
 Bovenop standaard REST maken we gebruik van de volgende standaarden, waar van
 toepassing:
 
-1. (OpenAPI Specification (OAS))[https://github.com/OAI/OpenAPI-Specification]
-2. (JSon Web token (JWT))[https://jwt.io]
-3. (OAuth 2.0)[https://oauth.net/2/]
-4. (OpenID Connect)[https://openid.net/connect]
-5. (JSON-LD)[https://json-ld.org]
+1. [OpenAPI Specification (OAS)](https://github.com/OAI/OpenAPI-Specification)
+2. [JSon Web token (JWT)](https://jwt.io)
+3. [OAuth 2.0](https://oauth.net/2/)
+4. [OpenID Connect](https://openid.net/connect)
+5. [JSON-LD](https://json-ld.org)
 
 ## Uitgangspunten ##
 
