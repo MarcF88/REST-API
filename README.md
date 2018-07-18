@@ -38,13 +38,13 @@ de standaard toegelicht.
 
 # Wensen voor REST berichten #
 
-  # (M) Beveiliging minstens op hetzelfde niveau als Edukoppeling, met dezelfde
+  1. (M) Beveiliging minstens op hetzelfde niveau als Edukoppeling, met dezelfde
   zekerheden
-  # (S) Generieke conventies over hoe de API's en berichtuitwisselingen zijn
+  2. (S) Generieke conventies over hoe de API's en berichtuitwisselingen zijn
   ingericht
-  # (S) Een zo precies mogelijke beschrijving van de syntax van de gebruikte
+  3. (S) Een zo precies mogelijke beschrijving van de syntax van de gebruikte
   berichten
-  # (C) Generieke afspraken over de semantek binnen de berichtvelden die
+  4. (C) Generieke afspraken over de semantek binnen de berichtvelden die
   gebruikt worden binnen het onderwijsdomein
 
 De API-strategie van het programma [Aan de slag met de
@@ -58,10 +58,10 @@ startpunt.
 
 ## Uitgangspunten ##
 
-  # We beschrijven *resource-georienteerde* REST API's in dit stuk.
-  # We sluiten aan bij internationale en algemene conventies op het gebied van
+  1. We beschrijven *resource-georienteerde* REST API's in dit stuk.
+  2. We sluiten aan bij internationale en algemene conventies op het gebied van
   REST en HTTP en aanverwante standaarden
-  # Ongeacht deze afspraken blijft in elk geval Postel's principe van robuuste
+  3. Ongeacht deze afspraken blijft in elk geval Postel's principe van robuuste
   communicatie van kracht: "wees conservatief in wat je doet, en liberaal in wat
   je accepteert van anderen."
 
